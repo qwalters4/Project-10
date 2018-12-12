@@ -27,8 +27,9 @@ public class LightsOut extends JFrame
 		f.add(gb, BorderLayout.CENTER);
 		f.add(control, BorderLayout.EAST);
 		f.setSize(800, 750);
-		f.setResizable(false);
+		f.setResizable(false);;
 		f.setVisible(true);
+		f.setDefaultCloseOperation(EXIT_ON_CLOSE);
 		
 	}
 	
